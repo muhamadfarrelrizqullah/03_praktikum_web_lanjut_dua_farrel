@@ -327,6 +327,11 @@ return [
             'url'  => 'pengalaman-kuliah',
             'icon' => 'fas fa-fw fa-users',
         ],
+        [
+            'text' => 'Data Person',
+            'url'  => 'data',
+            'icon' => 'fas fa-fw fa-users',
+        ],
     ],
 
     /*

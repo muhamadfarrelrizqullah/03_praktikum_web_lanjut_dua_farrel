@@ -32,3 +32,5 @@ Route::view('/pengalaman-kuliah', 'pengalaman-kuliah');
 Route::get('/profil/{nama}', function ($nama) {
     return view('profil', ['nama' => $nama]);
 });
+
+Route::get('/data', [App\Http\Controllers\PersonController::class, 'index']);
